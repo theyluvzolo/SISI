@@ -252,13 +252,6 @@ L_6_:NewButton(
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/nyulachan/nyula/main/nyuladhm"))()
 end
 )
-L_6_:NewButton(
-    "beamed ware",
-    "OP",
-    function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/RYZZCHIPSX/ryzzchips/main/beamed%20ware%20script"))();
-end
-)
 local L_7_ = L_4_:NewTab("Tools")
 local L_8_ = L_7_:NewSection("zolos tools")
 L_8_:NewButton(
